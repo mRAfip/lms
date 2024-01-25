@@ -1,0 +1,142 @@
+@import url('https://fonts.cdnfonts.com/css/marcellus');
+:root {
+	--tt-main-bg-color: #fcf3df;   /*  background color. */
+    --tt-main-bg-gold: #fcf3df; /*  background gold. */
+	--tt-main-color: #C5983C; /*  main color. */
+
+}
+
+body {
+
+    color: black !important;
+}
+
+.map-section {
+
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+.image-hedaer-contact{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.contact_container{
+    padding: 6%;
+}
+
+.contact_section1{
+
+
+    display: flex;
+    width: 100%;
+    padding: 2% 10%;
+    /* background-color: var(--tt-main-color); */
+    background: linear-gradient(
+        to right,
+        #C5983C 50%,
+        #fff 50%
+      );
+      border-radius: 2%;
+    color: #fff !important;
+   
+
+}
+
+.contact_adress_div{
+    flex-grow: 1;
+}
+.contact_map_div1{
+    flex-grow: 1;
+}
+
+.bg-gold{
+
+
+    color: #fff !important;
+  
+    
+}
+
+.contact_map_div1{
+
+    width: 50rem;
+    height: 550px;
+    padding-top: 8%;
+}
+
+.map_frame1{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+   
+.tt-form-filled .tt-form-control {
+    background-color: #fcf3df;
+    color: #000;
+    border: none;
+}
+
+.tt-form-text {
+    display: block;
+    margin-top: 5px;
+    font-style: italic;
+    color: #877f7f;
+}
+
+
+
+
+@media only screen and (min-device-width: 1200px) {
+
+
+    .contact-detail{
+
+        padding-top: 20%;
+    }
+
+    .header-contact{
+
+
+        width: 100%;
+        height: 500px;
+       
+    }
+    
+
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px){
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px ) {
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+    .header-contact{
+
+
+        width: 100%;
+        height: 300px;
+       
+    }
+    
+
+
+}

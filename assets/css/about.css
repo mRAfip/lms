@@ -1,0 +1,518 @@
+
+@import url('https://fonts.cdnfonts.com/css/marcellus');
+:root {
+	--tt-main-bg-color: #fcf3df;   /*  background color. */
+    --tt-main-bg-gold: #fcf3df; /*  background gold. */
+	--tt-main-color: #C5983C; /*  main color. */
+}
+
+
+
+@media only screen and (min-device-width: 1200px) {
+
+
+    .support-team-marketing{
+
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        color: black;
+    
+    }
+    
+    .image-container {
+        flex: 1 0 50%;
+       padding-left: 10%;
+    
+        
+      }
+    
+      .about-img{
+       
+        object-fit: cover;
+        width: 100%;
+        height: 70%;
+        
+        
+        
+    
+      }
+    
+      .support-team-marketing-content {
+        flex: 1 0 50%;
+        padding: 5%  5%;
+      
+        
+      }
+    
+    
+      .support-head{
+    
+        font-size: calc(8px + 4vw);
+       
+      }
+    
+      .support-para{
+    
+        width: 80%;
+    
+      }
+    
+      .support-link {
+    
+        text-decoration: underline;
+      }
+    
+      .pad{
+    
+        margin-left: 5%;
+      }
+    
+    
+    
+    /* call back  */
+    
+    
+    .main-high-light-about{
+    
+        text-align: center;
+        color: #000;
+        padding: 7% 20%;
+        
+        color: #C5983C;
+        
+        
+        
+    
+    }
+    
+    .main-high-light-head{
+    
+        font-size: calc(2px + 2vw) !important;
+        font-family: 'Marcellus'!important;
+    }
+    .hightlight{
+    
+    
+        background-color: var(--tt-main-bg-gold);
+    }
+    
+    .hightlight-items{
+    
+        display: flex;
+        padding-top: 5%;
+        
+    
+    }
+    
+    .item{
+    
+        justify-content: center;
+        align-content: center;
+        color: #000;
+        padding: 0 5%;
+       
+    
+    
+    }
+    .item-img{
+    
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+    }
+
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+
+
+
+    
+.main-high-light-about{
+
+    text-align: center;
+    color: #000;
+    padding: 7% 5%;
+    color: #C5983C;
+    
+    
+    
+
+}
+
+.main-high-light-head{
+
+    font-size: calc(3px + 3vw) !important;
+    font-family: 'Marcellus'!important;
+}
+.hightlight{
+
+
+    background-color: var(--tt-main-bg-gold);
+}
+
+.hightlight-items{
+
+    display: flex;
+    padding-top: 5%;
+    
+
+}
+
+.item{
+
+    justify-content: center;
+    align-content: center;
+    color: #000;
+    padding: 0 2%;
+   
+
+
+}
+.item-img{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+
+
+
+.support-team-marketing{
+
+    display: flex;
+
+    width: 100%;
+    color: black;
+    padding: 0 5%;
+    gap: 30px;
+
+}
+
+.image-container {
+    flex: 1 0 50%;
+    padding-left: 0 2%;
+    padding-bottom: 2%;
+
+    
+  }
+
+  .about-img{
+   
+    object-fit: cover;
+    width: 100%;
+    height: 100% !important;
+    
+    
+    
+
+  }
+
+  .support-team-marketing-content {
+    flex: 1 0 50%;
+   
+  
+    
+  }
+
+
+  .support-head{
+
+    font-size: calc(9px + 5vw);
+   
+  }
+
+  .support-para{
+
+    width: 100%;
+    font-size: calc(1px + 1.5vw);
+
+  }
+
+  .support-link {
+
+    text-decoration: underline;
+  }
+
+  .pad{
+
+    margin-left: 5%;
+  }
+
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px ) { 
+
+
+    .support-team-marketing{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: black;
+    
+    }
+    
+    .image-container {
+        flex: 1 0 50%;
+        padding: 0 5%;
+    
+        
+      }
+    
+      .about-img{
+       
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        border-radius: 50px;
+        
+        
+        
+    
+      }
+    
+      .support-team-marketing-content {
+        flex: 1 0 50%;
+        padding: 5%  5%;
+      
+        
+      }
+    
+    
+      .support-head{
+    
+        font-size: calc(12px + 6vw) !important;
+        text-align: center;
+       
+      }
+    
+      .support-para{
+    
+        width: 100%;
+        text-align: center;
+    
+      }
+    
+      .support-link {
+    
+        text-decoration: underline;
+      }
+    
+      .pad{
+    
+        margin-left: 5%;
+      }
+    
+    
+    
+    /* call back  */
+    
+    
+    .main-high-light-about{
+    
+        text-align: center;
+        color: #000;
+        padding: 7% 5%;
+        
+        color: #C5983C;
+        
+        
+        
+    
+    }
+    
+    .main-high-light-head{
+    
+        font-size: calc(3px + 3vw) !important;
+        font-family: 'Marcellus'!important;
+    }
+    .hightlight{
+    
+    
+        background-color: var(--tt-main-bg-gold);
+    }
+    
+    .hightlight-items{
+    
+        display: flex;
+        padding-top: 5%;
+        
+    
+    }
+    
+    .item{
+    
+        justify-content: center;
+        align-content: center;
+        color: #000;
+        padding: 0 2%;
+       
+    
+    
+    }
+    .item-img{
+    
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+    }
+    
+
+
+    .contact_section{
+
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2% 0%;
+        background-color: var(--tt-main-color);
+        color: #fff !important;
+       
+    
+    }
+    
+    .contact_map_div{
+    
+        width: 100%;
+        height: 450px;
+        padding-top: 10%;
+    }
+    
+
+    #tt-footer{
+
+        background-color: var(--tt-main-color) !important;
+    }
+
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px){
+
+
+
+    .support-team-marketing{
+
+        flex-direction: column;
+        color: #000;
+    
+    }
+    
+    .image-container {
+        flex: 1 0 50%;
+        padding: 0 5%;
+    
+        
+      }
+    
+      .about-img{
+       
+        object-fit: cover;
+        width: 100%;
+        border-radius: 100px;
+        height: 80%;
+        
+        
+        
+    
+      }
+    
+      .support-team-marketing-content {
+        flex: 1 0 50%;
+        padding: 10%  5%;
+      
+        
+      }
+    
+    
+      .support-head{
+    
+        font-size: calc(8px + 6vw);
+        text-align: center;
+       
+      }
+    
+      .support-para{
+    
+        width: 100%;
+        text-align: center;
+    
+      }
+    
+      .support-link {
+    
+        text-decoration: underline;
+      }
+    
+      .pad{
+    
+        margin-left: 5%;
+      }
+    
+    
+    
+    /* highlight part  */
+    
+    
+    .main-high-light-about{
+    
+        text-align: center;
+        color: #000;
+        padding: 7% 5%;
+        
+        color: #C5983C;
+        
+        
+        
+    
+    }
+    
+    .main-high-light-head{
+    
+        font-size: calc(4px + 4vw) !important;
+        font-family: 'Marcellus'!important;
+    }
+    .hightlight{
+    
+    
+        background-color: var(--tt-main-bg-gold);
+    }
+    
+    .hightlight-items{
+    
+        display: flex;
+        padding-top: 5%;
+        flex-direction: column;
+        
+    
+    }
+    
+    .item{
+    
+        justify-content: center;
+        align-content: center;
+        color: #000;
+        padding: 0 5%;
+       
+    
+    
+    }
+    .item-img{
+    
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+    }
+
+
+}

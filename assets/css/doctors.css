@@ -1,0 +1,115 @@
+@import url('https://fonts.cdnfonts.com/css/marcellus');
+:root {
+	--tt-main-bg-color: #fcf3df;   /*  background color. */
+    --tt-main-bg-gold: #fcf3df; /*  background gold. */
+	--tt-main-color: #C5983C; /*  main color. */
+
+}
+
+
+
+.our-doctor-heading{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 25px;
+   font-weight: bold;
+   color: black;
+}
+
+
+
+/* .section {
+    width: 50%;
+    height: 150px;
+   
+    background-color: #991f1f;
+    
+}
+
+
+@media screen and (max-width: 50%) {
+    .section {
+        width: 100%;
+    }
+} */
+
+/* .container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    
+    justify-content: center;
+}
+
+.doctor-details {
+   width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+} */
+
+/* Media query for smaller screens */
+/* @media screen and (max-width: 767px) {
+    .section {
+        flex: 0 0 100%;  */
+        /* Full width on smaller screens */
+    /* }
+} */
+
+
+
+.our-doctors {
+    display: flex;
+    justify-content: center; /* Center containers horizontally */
+    padding: 5%; /* Add padding around the entire section */
+}
+
+.our-doctor-image-container,
+.our-doctor-content {
+    flex: 1; /* Expand to full width */
+    max-width: 600px; /* Limit max width if needed */
+    text-align: center; /* Center content within each container */
+    margin: 2.5%; /* Add margin around each container */
+}
+
+.doc-img {
+    object-fit: cover;
+    width: 380px;
+    height: 380px;
+}
+
+.doctor1 {
+    font-size: large;
+    color: black;
+}
+
+.doc-spec {
+    font-size: medium;
+    font-weight: lighter;
+    color: black;
+}
+
+.our-doctor-detail {
+    font-size: medium;
+    text-align: justify; 
+    color: black;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 767px) {
+    .our-doctors {
+        flex-direction: column;
+    }
+
+    .our-doctor-image-container,
+    .our-doctor-content {
+        flex: 1 0 100%; /* Full width on smaller screens */
+        max-width: none; /* Remove max width on smaller screens */
+        margin: 2.5% 0; /* Adjust margin for smaller screens */
+    }
+}
