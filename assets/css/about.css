@@ -10,6 +10,7 @@
 
 @media only screen and (min-device-width: 1200px) {
 
+  
 
     .support-team-marketing{
 
@@ -33,30 +34,39 @@
         width: 100%;
         height: 70%;
         
-        
-        
-    
       }
     
+
+
+      
       .support-team-marketing-content {
         flex: 1 0 50%;
         padding: 5%  5%;
-      
-        
+     
       }
     
     
       .support-head{
     
-        font-size: calc(8px + 4vw);
-       
+        color: #000;
+        /* font-size: calc(8px + 4vw);
+        */
+        padding-left: 16%;
       }
     
+      .support-para {
+        width: 100%;
+        text-align: justify;
+        color: black;
+    }
       .support-para{
     
         width: 80%;
+        padding-left: 16%;
+
     
       }
+      
     
       .support-link {
     
@@ -69,7 +79,131 @@
       }
     
     
+
+
+      body {
+        margin: 0;
+    }
     
+    .outer-container {
+        background-color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .image-container {
+        border: 1px solid #ddd;
+        display: flex;
+        justify-content: center; /* Center the content horizontally */
+        background-color: #ffffff;
+        padding: 10%;
+    }
+    
+    .grid-container {
+        margin: 0;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Distribute columns evenly */
+    }
+    
+    .column {
+        flex: 0 0 calc(25% - 20px); /* Adjust the calculation to include spacing */
+        max-width: calc(25% - 20px); /* Adjust the calculation to include spacing */
+        margin: 10px; /* Add spacing between columns */
+    }
+    
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+     body {
+        margin: 0;
+    }
+    
+    .outer-container {
+        background-color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .image-container {
+        border: 1px solid #ddd;
+        display: flex;
+        justify-content: center; /* Center the content horizontally */
+        background-color: #ffffff;
+        padding: 10%;
+    }
+    
+    .grid-container {
+        margin: 0;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Distribute columns evenly */
+    }
+    
+    .column {
+        flex: 0 0 calc(25% - 20px); /* Adjust the calculation to include spacing */
+        max-width: calc(25% - 20px); /* Adjust the calculation to include spacing */
+        margin: 10px; /* Add spacing between columns */
+    }
+    
+    /* .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    } */
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+      height: 270px; /* Set a fixed height as needed */
+  }
+
+
+    /* Responsive layout - makes a two-column layout instead of four columns */
+    @media screen and (max-width: 800px) {
+        .column {
+            flex: 0 0 calc(50% - 20px); /* Adjust the calculation to include spacing */
+            max-width: calc(50% - 20px); /* Adjust the calculation to include spacing */
+        }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            flex: 0 0 calc(100% - 20px); /* Adjust the calculation to include spacing */
+            max-width: calc(100% - 20px); /* Adjust the calculation to include spacing */
+        }
+    }
+    
+    
+    /* Responsive layout - makes a two-column layout instead of four columns */
+    @media screen and (max-width: 800px) {
+        .column {
+            flex: 0 0 calc(50% - 20px); /* Adjust the calculation to include spacing */
+            max-width: calc(50% - 20px); /* Adjust the calculation to include spacing */
+        }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            flex: 0 0 calc(100% - 20px); /* Adjust the calculation to include spacing */
+            max-width: calc(100% - 20px); /* Adjust the calculation to include spacing */
+        }
+    }
+    
+ 
+
     /* call back  */
     
     
@@ -439,13 +573,15 @@
     
         font-size: calc(8px + 6vw);
         text-align: center;
+        color: #000;
        
       }
     
       .support-para{
     
         width: 100%;
-        text-align: center;
+        color: #000;
+        text-align: justify;
     
       }
     

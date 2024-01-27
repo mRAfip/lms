@@ -33,23 +33,7 @@ body {
     padding: 6%;
 }
 
-.contact_section1{
 
-
-    display: flex;
-    width: 100%;
-    padding: 2% 10%;
-    /* background-color: var(--tt-main-color); */
-    background: linear-gradient(
-        to right,
-        #C5983C 50%,
-        #fff 50%
-      );
-      border-radius: 2%;
-    color: #fff !important;
-   
-
-}
 
 .contact_adress_div{
     flex-grow: 1;
@@ -97,12 +81,19 @@ body {
 
 
 
+
+
 @media only screen and (min-device-width: 1200px) {
+
+   
 
 
     .contact-detail{
 
-        padding-top: 20%;
+     
+        padding-left: 10%;
+    
+        /* margin-left: auto; */
     }
 
     .header-contact{
@@ -112,21 +103,76 @@ body {
         height: 500px;
        
     }
+    .contact_section1{
+
+
+        display: flex;
+        width: 100%;
+        padding: 2% 10%;
+        /* background-color: var(--tt-main-color); */
+        background: linear-gradient(
+            to right,
+            #C5983C 50%,
+            #fff 50%
+          );
+          border-radius: 2%;
+        color: #fff !important;
+       
+    
+    }
     
 
 }
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px){
+    .contact-detail{
 
+        
+        padding-left: 10%;
+    
+        /* margin-left: auto; */
+    }
+    .contact_section1{
+        background-color: var(--tt-main-color);
+    }
+
+.tt-btn-primary {
+    background-color: var(--tt-main-bg-color);
+}
+.tt-btn > span {
+    color: #000;
+}
+.tt-btn > span > i::before {
+    color: #000;
+}
+ .btn-msg{
+    color: #000;
+ }
+ .btn-msg::after{
+    color: #000;
+ }
 
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px ) {
+    .contact-detail{
 
+        
+        padding-left: 10%;
+    
+        /* margin-left: auto; */
+    }
 
 }
 
 @media only screen and (max-width: 767px){
+    .contact-detail{
+
+      
+        padding-left: 10%;
+    
+        /* margin-left: auto; */
+    }
 
 
     .header-contact{
@@ -136,6 +182,38 @@ body {
         height: 300px;
        
     }
+    .contact_section1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2% 10%;
+        /* background-color: var(--tt-main-color); */
+        background-color: var(--tt-main-color);
+        border-radius: 2%;
+        /* color: #fff !important; */
+    }
+
+
+    .contact_map_div1  {
+    width: 100%;
+    height: 450px;
+    padding-top: 10%;
+}
+.tt-btn-primary {
+    background-color: var(--tt-main-bg-color);
+}
+.tt-btn > span {
+    color: #000;
+}
+.tt-btn > span > i::before {
+    color: #000;
+}
+ .btn-msg{
+    color: #000;
+ }
+ .btn-msg::after{
+    color: #000;
+ }
     
 
 

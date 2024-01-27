@@ -15,6 +15,15 @@
 
 
 
+.btn-about{
+  padding-left: 20%;
+}
+
+
+
+
+
+
 .wrapper-about {
     width: 100%;
     overflow-x: hidden;
@@ -111,7 +120,7 @@
     }
   }
 
-
+ 
 
 
 @media only screen and (min-device-width: 1200px){
@@ -125,7 +134,7 @@
     display: flex;
     justify-content: space-between;
     padding-left: 15% !important;  
-    background-image: url("../img/head-2.png");
+    background-image: url("../img/home-page-imgg.png");
     background-size: cover;
 }
 
@@ -144,7 +153,12 @@
 
 .header-suptitle{
 
-    color: #fff;
+  background: url(../img/txt-bg.jpg) 0 0 / cover no-repeat;
+  /* color: #de466c; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    color: #000000;
     margin-bottom: 1%;
     margin-top: 15%;
    
@@ -158,6 +172,18 @@
 
 
 } 
+.header-text-content > h1{
+  background: url(../img/txt-bg.jpg) 0 0 / cover no-repeat;
+   color:#000000;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  
+    font-size: 48px;
+    /* background: -webkit-linear-gradient(#000, #C5983C); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 
 .btn-header{
 
@@ -343,7 +369,7 @@ content: attr(data-text);
     color: #000 !important;
     padding: 2% 20%;
     padding-top: 2%;
-    gap: 10%;
+    /* gap: 10%; */
     justify-content: space-between;
     width: 100%;
 }
@@ -352,13 +378,20 @@ content: attr(data-text);
 
     width: 100%;
     padding-top: 8%;
-    
+      
 }
+
+
+
 .about-title{
 
     font-size: calc(3px + 2.2vw) !important;
     font-weight: 700;
 
+}
+
+.about-para {
+  text-align: justify;  
 }
 
 .about-img-content{
@@ -436,6 +469,14 @@ content: attr(data-text);
     
 }
 
+
+
+
+
+.card-dept{
+  font-size: 13px;
+}
+
 .btn-view-more{
 
     width: fit-content;
@@ -464,6 +505,10 @@ content: attr(data-text);
     background-color: #e9e9e9;
     color: #000;
 
+}
+.doctor_list_section_2 .card{
+  height: 55vh;
+  width: auto;
 }
 
 #tt-footer{
@@ -523,7 +568,23 @@ content: attr(data-text);
 }
 
 
+@media only screen and (min-width: 992px) and (max-width: 1199px){
 
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    color: #000 !important;
+    padding: 2% 6%;
+    padding-top: 2%;
+    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
+    
+    /* flex-direction: column; */
+}
+
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
@@ -568,6 +629,13 @@ content: attr(data-text);
     
     
     } 
+    .header-title h1{
+      background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    }
+    
     
     .btn-header{
     
@@ -641,15 +709,16 @@ content: attr(data-text);
       /* about section */
     
 
-.about-section{
-
-  display: flex;
-  color: #000 !important;
-  padding: 2% 10%;
-  padding-top: 2%;
-  gap: 10%;
-  justify-content: space-between;
-  width: 100%;
+.about-section {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    color: #000 !important;
+    padding: 2% 6%;
+    padding-top: 2%;
+    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
+    /* flex-direction: column; */
 }
 
 .about-text-content{
@@ -691,6 +760,11 @@ content: attr(data-text);
 
 
 
+
+
+
+
+
 .doctor_list_section{
 
 
@@ -705,6 +779,9 @@ content: attr(data-text);
 
   margin-top: -2%;
 }
+
+
+
 
 .card{
 
@@ -770,6 +847,10 @@ content: attr(data-text);
   color: #000;
 
 }
+.doctor_list_section_2 .card{
+  height: 60vh;
+  width: auto;
+}
 
 #tt-footer{
 
@@ -825,9 +906,13 @@ content: attr(data-text);
     
 }
 
+
+
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 768px) and (max-width:991px ) {
 
+  
 
 
     .header-content{
@@ -836,7 +921,7 @@ content: attr(data-text);
         display: flex;
         justify-content: space-between;
         padding-left: 15% !important;  
-        background-image: url("../img/head-2.png");
+        background-image: url("../img/home-page-imgg.png");
         background-size: cover;
     }
     
@@ -947,7 +1032,18 @@ content: attr(data-text);
     }
     
     
-    
+    /* about-section */
+    .about-section{
+
+      display: flex;
+      color: #000 !important;
+      padding: 2% 20%;
+      padding-top: 2%;
+      /* gap: 10%; */
+      justify-content: space-between;
+      width: 100%;
+      flex-direction: column;
+  }
     
     
     /* extra added slider in about */
@@ -1011,7 +1107,7 @@ content: attr(data-text);
         display: flex;
         justify-content: space-between;
         padding-left:  6% !important;  
-        background-image: url("../img/head-2.png");
+        background-image: url("../img/home-page-imgg.png");
     }
     
     .tt-main-menu-list > li > a,
@@ -1029,18 +1125,27 @@ content: attr(data-text);
     
     .header-suptitle{
     
-        color: #fff;
+        color: #000;
         margin-bottom: 1%;
         margin-top: 15%;
         width: 100%;
+        background: url(../img/txt-bg.jpg) 0 0 / cover no-repeat;
+        color: #000000;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
        
     }
+
     .header-title{
        
         font-size: calc(8px + 5.5vw) !important;
         font-weight: 800;
         margin-top: -2%;
-        color: #fff !important;
+        color: #000 !important;
+        background: url(../img/txt-bg.jpg) 0 0 / cover no-repeat;
+       
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     
     
     } 
@@ -1301,6 +1406,10 @@ content: attr(data-text);
     background-color: #fff;
     color: #000;
 
+}
+.doctor_list_section_2 .card{
+  height: 30vh;
+  width: auto;
 }
 
 

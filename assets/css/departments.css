@@ -13,15 +13,26 @@
     justify-content: space-around; /* Add space between items */
     padding-top: 6%;
     padding-bottom: 6%;
+
 }
 
+.hightlight-items .card{
+    color: white;
+    background-color: #000;
+    height: auto;
+}
+
+
+
 .item {
+    
     flex: 1 0 30%; /* Adjust the width of each item based on your preference */
     justify-content: center;
     align-content: center;
     color: #000;
     padding: 0 2%;
     margin-bottom: 2%; /* Add space below each item */
+   
 }
 
 
