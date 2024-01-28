@@ -259,7 +259,7 @@
 .marque_text_top{
 
   background-color: var(--primary-color);
-margin-bottom: 20px;
+margin-bottom: 2px;
 }
 
 .tt-scrolling-text-top {
@@ -270,11 +270,11 @@ pointer-events: none;
 .tt-scrolling-text-inner-top {
   padding-top:1vw;
   padding-bottom:1vw;
-font-size: calc(1.75px + 2vw);
+font-size: 2vh;
 line-height: 1;
 font-weight: bold;
 font-weight: 600;
-color: #000;
+color: #fff;
 white-space: nowrap;
 animation-name: tt_scrolling_text; 
 animation-timing-function: linear; 
@@ -598,7 +598,7 @@ content: attr(data-text);
         display: flex;
         justify-content: space-between;
         padding-left: 15% !important;  
-        background-image: url("../img/hero-back.jpg");
+       
     }
     
     .tt-main-menu-list > li > a,
@@ -922,8 +922,7 @@ content: attr(data-text);
         display: flex;
         justify-content: space-between;
         padding-left: 15% !important;  
-        background-image: url("../img/home-page-imgg.png");
-        background-size: cover;
+        
     }
     
     .tt-main-menu-list > li > a,
@@ -1097,7 +1096,7 @@ content: attr(data-text);
 
     .tt-m-menu-toggle-btn-text {
 		
-		color: #fff !important;
+		color: #000 !important;
 	}
 
     
@@ -1109,12 +1108,14 @@ content: attr(data-text);
         justify-content: space-between;
         padding-left:  6% !important;  
         background-image: url("../img/home-page-imgg.png");
+        background-size: cover;
+        
     }
     
     .tt-main-menu-list > li > a,
     .tt-main-menu-list > li > .tt-submenu-trigger > a {
     
-        color: #fff !important;
+        color: #000 !important;
        
     }
     
@@ -1153,10 +1154,11 @@ content: attr(data-text);
     
     .btn-header{
     
-        border: solid 1px #fff;
+        border: solid 1px #000;
         border-radius: 10px;
         padding: 2% 5%;
         width: fit-content;
+        color: #000;
     }
     
     .header-para{
@@ -1409,8 +1411,9 @@ content: attr(data-text);
 
 }
 .doctor_list_section_2 .card{
-  height: 30vh;
+  height: auto;
   width: auto;
+  text-align: center;
 }
 
 

@@ -229,27 +229,43 @@
 
 
 
-           <!-- Slider main container -->
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                ...
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-            
-               
-            </div>
+            <!-- Slider main container -->
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+
+							
+
+						</div>
+						<div class="swiper-slide">
+
+
+						</div>
+						<div class="swiper-slide">
+
+						
+
+						</div>
+						<div class="swiper-slide">
+
+						
+						</div>
+
+						<!-- If we need pagination -->
+						<div class="swiper-pagination"></div>
+
+
+
+
+					</div>
 
 
 
 
 
-
+				</div>
 
 
         
@@ -353,31 +369,81 @@
 		///// Scripts below /////
 		===================== -->
 
+			<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-        <script>
-            const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
 
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
+			<!-- swiper -->
 
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
 
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-            });
-        </script>
+			<script>
+				const swiper = new Swiper('.swiper', {
+					// Optional parameters
 
+					// ...other Swiper options
+					breakpoints: {
+						320: {
+							slidesPerView: 1,
+							slidesPerGroup: 1, // Show 1 preview dot on mobile
+							freeMode: true,
+
+						},
+						768: {
+							slidesPerView: 1,
+							slidesPerGroup: 1, // Show 2 preview dots on tablets
+							freeMode: true,
+						},
+						992: {
+							slidesPerView: 1,
+							slidesPerGroup: 1, // Show 3 preview dots on larger screens
+							freeMode: true,
+						},
+					},
+					spaceBetween: 10,
+					direction: 'horizontal',
+					loop: true,
+					autoplay: {
+						delay: 3000, // Delay between slides in milliseconds (3 seconds here)
+						disableOnInteraction: false, // Keep autoplaying even after user interaction
+						loopFillGroupWithBlank: true,
+					},
+
+
+
+
+
+					// If we need pagination
+					pagination: {
+						el: '.swiper-pagination',
+					},
+
+					// Navigation arrows
+					navigation: {
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},
+
+					// And if we need scrollbar
+					scrollbar: {
+						el: '.swiper-scrollbar',
+					},
+				});
+			</script>
+
+			<script>
+
+				var swiperEffect = new Swiper(".swiperEffect", {
+					loop: true,
+					effect: "cards",
+					grabCursor: true,
+					navigation: {
+						nextEl: ".swiper-button-next",
+						prevEl: ".swiper-button-prev"
+					},
+					pagination: {
+						el: ".swiper-pagination",
+					},
+				});
+			</script>
         
     <!-- Core JS -->
     <script src="assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
