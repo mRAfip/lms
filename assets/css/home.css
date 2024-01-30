@@ -1450,6 +1450,13 @@ width: auto;
     
 }
 
+.tt-scrolling-text-inner-top {
+
+color: #fff;
+
+/* animation-duration is handled by js. */
+}
+
 
 /* service  */
 
@@ -1524,7 +1531,7 @@ width: auto;
 
 .card-doctor{
 
-  width: 350px;
+  width: 80vw;
   height: 400px;
   border-radius: 10px;
   padding: 1% 1%;
@@ -1537,7 +1544,7 @@ width: auto;
 
 #swiper-slide-item{
 
-  margin-right: 8% !important;
+  margin-right: 3% !important;
 }
 
 
