@@ -1210,7 +1210,7 @@ width: auto;
         display: flex;
         justify-content: space-between;
         padding-left:  6% !important;  
-        background-image: url("../img/home-page-imgg.png");
+        background-image: url("../img/home-mob.png");
         background-size: cover;
         
     }
@@ -1537,7 +1537,7 @@ color: #fff;
   padding: 1% 1%;
   text-align: center;
   background-size: cover;
-  box-shadow: rgba(255, 183, 0, 0.779) 0px -50px 36px -28px inset;
+  /* box-shadow: rgba(255, 183, 0, 0.779) 0px -50px 36px -28px inset; */
   border: none !important;
 
 }
@@ -1596,10 +1596,13 @@ color: #fff;
 
     width: 100%;
     padding: 2% 5%;
-    background-color: #C5983C;
+    /* background-color: #C5983C; */
+    background: linear-gradient(to top left, #ffffcc 0%, #cc6600 100%);
+    background-color: transparent;
     color: #000;
     margin-top: 5%;
     border-radius: 10px;
+
     text-align: center;
 }
 
