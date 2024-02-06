@@ -387,11 +387,14 @@ content: attr(data-text);
 
     font-size: calc(3px + 2.2vw) !important;
     font-weight: 700;
+    width: 80%;
 
 }
 
 .about-para {
   text-align: justify;  
+  font-size: 1vw;
+  width: 80%;
 }
 
 .about-img-content{
@@ -521,10 +524,9 @@ width: auto;
 
 .card-doctor{
 
-  width: 350px;
+  width: auto;
   height: 400px;
   border-radius: 10px;
-  padding: 1% 1%;
   text-align: center;
   background-size: cover;
   box-shadow: rgba(255, 183, 0, 0.779) 0px -50px 36px -28px inset;
@@ -532,7 +534,14 @@ width: auto;
 
 }
 
-#swiper-slide-item{
+.doc-home-slide{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* #swiper-slide-item{
 
   margin-right: 8% !important;
 }
@@ -561,7 +570,7 @@ width: auto;
 .doc6{
   background-image: url('../img/doctor/doc6-home.png');
 
-}
+} */
 
 
 
@@ -624,38 +633,20 @@ width: auto;
 }
 
 
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-
-  .about-section {
-    display: flex;
-    flex-direction: column;
-    color: #000 !important;
-    padding: 2% 6%;
-    padding-top: 2%;
-    gap: 10%;
-    justify-content: space-between;
-    width: 100%;
-    
-    /* flex-direction: column; */
-}
-
-
-}
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1199px) {
 
     
 
-    .header-content{
-        padding-top: 10%;
-        padding-bottom: 12%;
-        display: flex;
-        justify-content: space-between;
-        padding-left: 15% !important;  
-       
-    }
-    
+  .header-content{
+    padding-top: 10%;
+    padding-bottom: 12%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15% !important;  
+    background-image: url("../img/home-page-imgg.png");
+    background-size: cover;
+}
     .tt-main-menu-list > li > a,
     .tt-main-menu-list > li > .tt-submenu-trigger > a {
     
@@ -670,8 +661,13 @@ width: auto;
     }
     
     .header-suptitle{
+
+      background: url(../img/txt-bg.jpg) 0 0 / cover no-repeat;
+      /* color: #de466c; */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     
-        color: #fff;
+        color: #000000;
         margin-bottom: 1%;
         margin-top: 15%;
        
@@ -685,13 +681,18 @@ width: auto;
     
     
     } 
-    .header-title h1{
-      background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-    }
+    .header-text-content > h1{
+      background: url(../img/txt-bg.jpg) 0 0 / cover no-repeat;
+       color:#000000;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+      
+        font-size: 48px;
+        /* background: -webkit-linear-gradient(#000, #C5983C); */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     
+    }
     
     .btn-header{
     
@@ -913,10 +914,9 @@ width: auto;
 
 .card-doctor{
 
-  width: 350px;
+  width: auto;
   height: 400px;
   border-radius: 10px;
-  padding: 1% 1%;
   text-align: center;
   background-size: cover;
   box-shadow: rgba(255, 183, 0, 0.779) 0px -50px 36px -28px inset;
@@ -924,6 +924,14 @@ width: auto;
 
 }
 
+.doc-home-slide{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 
 #swiper-slide-item{
 
   margin-right: 8% !important;
@@ -953,7 +961,7 @@ width: auto;
 .doc6{
   background-image: url('../img/doctor/doc6-home.png');
 
-}
+} */
 
 
 #tt-footer{
@@ -1011,184 +1019,6 @@ width: auto;
 }
 
 
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 768px) and (max-width:991px ) {
-
-  
-
-
-    .header-content{
-        padding-top: 10%;
-        padding-bottom: 12%;
-        display: flex;
-        justify-content: space-between;
-        padding-left: 15% !important;  
-        
-    }
-    
-    .tt-main-menu-list > li > a,
-    .tt-main-menu-list > li > .tt-submenu-trigger > a {
-    
-        color: #fff !important;
-       
-    }
-    
-    .header-text-content{
-    
-        
-       
-    }
-    
-    .header-suptitle{
-    
-        color: #fff;
-        margin-bottom: 1%;
-        margin-top: 15%;
-       
-    }
-    .header-title{
-       
-        font-size: calc(6px + 4.5vw) !important;
-        font-weight: 800;
-        margin-top: -2%;
-        color: #fff !important;
-    
-    
-    } 
-    
-    .btn-header{
-    
-        border: solid 1px #fff;
-        border-radius: 10px;
-        padding: 2% 5%;
-        width: fit-content;
-    }
-    
-    .header-para{
-    
-        color: #000;
-        margin-top: -3%;
-    }
-    
-    
-    .header-text-content{
-    
-        width: 60%;
-    }
-    
-    
-    .header-title{
-        color: black;
-    }
-    
-    
-    .waves {
-        position:relative;
-        width: 100%;
-        height:15vh;
-        margin-bottom:-7px; /*Fix for safari gap*/
-        min-height:100px;
-        max-height:150px;
-        margin-top: -50%;
-        
-    }
-      
-      /* Animation */
-    
-    .parallax > use {
-        animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
-      }
-      .parallax > use:nth-child(1) {
-        animation-delay: -2s;
-        animation-duration: 7s;
-      }
-      .parallax > use:nth-child(2) {
-        animation-delay: -3s;
-        animation-duration: 10s;
-      }
-      .parallax > use:nth-child(3) {
-        animation-delay: -4s;
-        animation-duration: 13s;
-      }
-      .parallax > use:nth-child(4) {
-        animation-delay: -5s;
-        animation-duration: 20s;
-      }
-      @keyframes move-forever {
-        0% {
-         transform: translate3d(-90px,0,0);
-        }
-        100% { 
-          transform: translate3d(85px,0,0);
-        }
-      }
-
-
-
-  
-
-      #tt-footer{
-
-        background-color: var(--tt-main-color) !important;
-    }
-    
-    
-    /* about-section */
-    .about-section{
-
-      display: flex;
-      color: #000 !important;
-      padding: 2% 20%;
-      padding-top: 2%;
-      /* gap: 10%; */
-      justify-content: space-between;
-      width: 100%;
-      flex-direction: column;
-  }
-    
-    
-    /* extra added slider in about */
-    
-    
-    .contact_section{
-    
-    
-        display: flex;
-        width: 100%;
-        padding: 0% 10%;
-        background-color: var(--tt-main-color);
-        color: #fff !important;
-       
-    
-    }
-    
-    .bg-gold{
-    
-    
-        color: #fff !important;
-      
-        
-    }
-    
-    .contact_map_div{
-    
-        width: 100%;
-        height: 650px;
-        
-    }
-    
-    .map_frame{
-    
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
-    
-    
-}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -1531,47 +1361,24 @@ color: #fff;
 
 .card-doctor{
 
-  width: 80vw;
+  width: auto;
   height: 400px;
   border-radius: 10px;
-  padding: 1% 1%;
   text-align: center;
   background-size: cover;
-  /* box-shadow: rgba(255, 183, 0, 0.779) 0px -50px 36px -28px inset; */
+  box-shadow: rgba(255, 183, 0, 0.779) 0px -50px 36px -28px inset;
   border: none !important;
 
 }
 
-#swiper-slide-item{
+.doc-home-slide{
 
-  margin-right: 3% !important;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 
-.doc1{
-  background-image: url('../img/doctor/doc1-home.png');
-
-}
-.doc2{
-  background-image: url('../img/doctor/doc2-home.png');
-
-}
-.doc3{
-  background-image: url('../img/doctor/doc3-home.png');
-
-}
-.doc4{
-  background-image: url('../img/doctor/doc4-home.png');
-
-}
-.doc5{
-  background-image: url('../img/doctor/doc5-home.png');
-
-}
-.doc6{
-  background-image: url('../img/doctor/doc6-home.png');
-
-}
 
 
 
