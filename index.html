@@ -1017,15 +1017,16 @@
 				appointmentForm.addEventListener('submit', (event) => {
 					event.preventDefault(); // Prevent default form submission
 
-					const name = /* Get name value from form */;
-					const phone = /* Get phone value from form */;
-					const location = /* Get message value from form */;
+					const name = document.getElementById("name").value;/* Get name value from form */
+					const phone = document.getElementById("phone").value;
+					const location = document.getElementById("location").value;/* Get message value from form */
 
-					// Construct WhatsApp link with pre-filled message
-					const whatsappLink = `https://wa.me/+918921042110/?text=${encodeURIComponent(`Hello, my name is ${name} and I'd like to book an appointment. ${location}`)}`;
+					const formattedMessage = `Plaese book an appointment\n Name: ${name}\nPhone: ${phone}\n Location:${location}`;
 
-					// Open the link in a new window/tab
-					window.open(whatsappLink, '_blank');
+					const whatsappUrl = `https://wa.me/6282044855?text=${encodeURIComponent(formattedMessage)}`;
+					
+					window.open(whatsappUrl, "_blank");
+
 				});
 
 			</script>
