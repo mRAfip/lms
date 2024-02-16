@@ -193,10 +193,11 @@
 
 .btn-header{
 
-    border: solid 1px #fff;
+    border: solid 1px #000;
     border-radius: 10px;
     padding: 2% 5%;
     width: fit-content;
+    color: #000 !important;
 }
 
 .header-para{
@@ -214,6 +215,30 @@
 
 .header-title{
     color: black;
+}
+
+.badge-div{
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+
+  
+}
+
+.image-badge{
+
+  width: 80px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.badge-title{
+
+  color: #000;
+  margin-top: 5%;
+  margin-left: 2%;
+
 }
 
 
