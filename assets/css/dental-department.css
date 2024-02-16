@@ -17,6 +17,12 @@
   }
 
 
+  #motion_btns{
+
+    color: #000 !important;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
 
 @media only screen and (min-device-width: 1200px){
