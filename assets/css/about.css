@@ -7,6 +7,12 @@
 }
 
 
+body{
+
+
+  color: #000 !important;
+}
+
 
 @media only screen and (min-device-width: 1200px) {
 
@@ -364,6 +370,42 @@
     margin-left: 5%;
   }
 
+
+
+   /* start grid img grid */
+    
+   .about-image-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 2% 5%;
+  }
+
+
+
+  .container__item {
+    height: auto;
+    margin-top: 1vw;
+    width: 98vw;
+  }
+
+  .grid-img{
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .container__item:first-child {
+    margin-top: 0;
+  }
+
+
+  .support-team-marketing-content{
+
+
+    padding: 0 5%;
+  }
 
 }
 
