@@ -653,6 +653,12 @@ width: auto;
 }
 
 
+.location-qr{
+
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
 
 
 
@@ -1105,6 +1111,13 @@ content: attr(data-text);
 
     
     
+.location-qr{
+
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
     
 
     
@@ -1552,7 +1565,13 @@ content: attr(data-text);
 }
 
     
-    
+.location-qr{
+
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
     
 
     
@@ -1996,6 +2015,13 @@ color: #fff;
     padding-top: 10%;
 }
 
+
+.location-qr{
+
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
 
     
 }

@@ -13,6 +13,13 @@ body{
   color: #000 !important;
 }
 
+.location-qr{
+
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
 
 @media only screen and (min-device-width: 1200px) {
 
