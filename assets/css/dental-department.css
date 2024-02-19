@@ -95,6 +95,14 @@
 	}
 
 
+
+    .department-main-detail{
+
+       padding-top: 15%;
+       padding-left: 15%;
+       width: 60%;
+    }
+
 }
 
 
@@ -173,6 +181,20 @@
 		object-fit: cover;
 	}
 
+
+    .support-team-marketing-content{
+
+       padding: 10% 5%;
+
+    
+    }
+
+    .department-main-detail{
+
+        padding-top: 15%;
+        padding-left: 15%;
+        width: 70%;
+     }
 	
 	
 }
@@ -250,6 +272,20 @@
 	}
 
 
+    .support-team-marketing-content{
+
+        padding: 10% -5%;
+ 
+     
+     }
+
+     .department-main-detail{
+
+        padding-top: 15%;
+        padding-left: 15%;
+        width: 80%;
+     }
+
 }
 
 @media only screen and (max-width: 767px){
@@ -322,4 +358,12 @@
 		object-fit: cover;
 	}
 
+
+    .department-main-detail{
+
+        padding-top: 15%;
+        padding-left: 15%;
+        width: 90%;
+     }
+   
 }
