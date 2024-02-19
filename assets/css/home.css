@@ -733,6 +733,7 @@ width: auto;
     .btn-header{
     
         border: solid 1px #000;
+        color: #000;
         border-radius: 10px;
         padding: 2% 5%;
         width: fit-content;
