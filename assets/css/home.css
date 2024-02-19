@@ -686,7 +686,7 @@ width: auto;
     .tt-main-menu-list > li > a,
     .tt-main-menu-list > li > .tt-submenu-trigger > a {
     
-        color: #fff !important;
+        color: #000 !important;
        
     }
     
@@ -713,7 +713,7 @@ width: auto;
         font-size: calc(6px + 3.5vw) !important;
         font-weight: 800;
         margin-top: -2%;
-        color: #fff !important;
+        color: #000 !important;
     
     
     } 
@@ -732,7 +732,7 @@ width: auto;
     
     .btn-header{
     
-        border: solid 1px #fff;
+        border: solid 1px #000;
         border-radius: 10px;
         padding: 2% 5%;
         width: fit-content;
