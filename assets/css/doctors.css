@@ -96,9 +96,10 @@
 
 .our-doctor-detail {
     font-size: medium;
-    text-align: justify; 
+    text-align: left; 
     color: black;
 }
+
 
 /* Media query for smaller screens */
 @media screen and (max-width: 767px) {
