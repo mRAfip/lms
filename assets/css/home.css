@@ -1676,14 +1676,15 @@ content: attr(data-text);
 
       display: flex;
       align-items: center;
-      margin-bottom: 5%;
+      margin-bottom: 2%;
+      margin-top: -5%;
     
       
     }
     
     .image-badge{
     
-      width: 60px;
+      width:35px;
       height: auto;
       border-radius: 10px;
     }
