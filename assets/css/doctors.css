@@ -93,8 +93,19 @@
     font-weight: lighter;
     color: black;
 }
+.doc-spec1{
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
 
 .our-doctor-detail {
+    font-size: medium;
+    text-align: justify; 
+    color: black;
+}
+
+.our-doctor-detail1{
     font-size: medium;
     text-align: left; 
     color: black;

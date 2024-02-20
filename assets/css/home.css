@@ -853,7 +853,7 @@ width: auto;
 }
 
 .about-para{
-
+  text-align: justify;
   
 }
 .about-img-content{
@@ -1298,6 +1298,7 @@ content: attr(data-text);
 
   width: 100%;
   padding-top: 8%;
+ 
   
 }
 .about-title{
@@ -1308,8 +1309,8 @@ content: attr(data-text);
 }
 
 .about-para{
-
-  
+  text-align: justify;
+ 
 }
 .about-img-content{
 
