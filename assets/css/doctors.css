@@ -78,7 +78,7 @@
 }
 
 .doc-img {
-    object-fit: cover;
+    object-fit: contain;
     width: 380px;
     height: 380px;
 }
